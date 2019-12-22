@@ -18,7 +18,8 @@ int main()
 					if(m==n && m!=0 && n!=0  && a!=b && a!=c && a!=d && b!=c && b!=d && c!=d)
 					{
 						printf("\n(a)%d^3 +(b)%d^3=(m)%d ==(c)%d^3+(d)%d^3=(n)%d\n",a,b,m,c,d,n);
-					}
+					        return 1;
+                                        }
 				}
 			}
 		}
